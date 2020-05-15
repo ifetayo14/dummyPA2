@@ -95,21 +95,21 @@ class PendetaAktifController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\PendetaAktif $pendetaAktif
      * @return \Illuminate\Http\Response
+     * @throws \Illuminate\Validation\ValidationException
      */
     public function update(Request $request, PendetaAktif $pendetaAktif)
     {
-//        $pendeta = PendetaAktif::find($pendetaAktif);
-//        $pendeta -> name = $request->get('name');
-//        $pendeta -> birthPlace = $request->get('birthPlace');
-//        $pendeta -> birthDate = $request->get('birthDate');
-//        $pendeta -> gender = $request->get('gender');
-//        $pendeta -> dutyBegin = $request->get('dutyBegin');
-//        $pendeta -> workPlace = $request->get('workPlace');
-//        $pendeta -> address = $request->get('address');
-//        $pendeta -> email = $request->get('email');
-//        $pendeta -> phoneNumber = $request->get('phoneNumber');
-//
-//        $pendeta -> save();
+        $this->validate($request, [
+            'name' => 'required',
+            'birthPlace' => 'required',
+            'birthDate' => 'required',
+            'gender' => 'required',
+            'dutyBegin' => 'required',
+            'workPlace' => 'required',
+            'address' => 'required',
+            'email' => 'required',
+            'phoneNumber' => 'required|size:11'
+        ]);
 
         $pendetaAktif->update([
             'name' => $request->name,
@@ -122,7 +122,7 @@ class PendetaAktifController extends Controller
             'email' => $request->email,
             'phoneNumber' => $request->phoneNumber
         ]);
-        
+
         return redirect('/pendetaAktif ')->with('success', 'Data Diubah');
     }
 
@@ -135,6 +135,6 @@ class PendetaAktifController extends Controller
     public function destroy(PendetaAktif $pendetaAktif)
     {
         PendetaAktif::destroy($pendetaAktif->id);
-        return redirect('/pendetaAktif ')->with('success', 'Data Dihapus');
+        return redirect('/pendetaPensiun ')->with('success', 'Data Dihapus');
     }
 }

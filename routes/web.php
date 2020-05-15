@@ -43,10 +43,6 @@ Route::get('/detailKolekteGereja', function () {
     return view('detailKolekteGereja');
 });
 
-Route::get('/pendetaPensiun', function () {
-    return view('pendetaPensiun');
-});
-
 Route::get('/pengumuman', function () {
     return view('pengumuman');
 });
@@ -83,14 +79,6 @@ Route::get('/addGereja', function () {
     return view('addGereja');
 });
 
-Route::get('/addPendetaAktif', function () {
-    return view('addPendetaAktif');
-});
-
-Route::get('/addPendetaPensiun', function () {
-    return view('addPendetaPensiun');
-});
-
 Route::get('/profile', function () {
     return view('profile');
 });
@@ -102,13 +90,21 @@ Route::get('/editProfile', function () {
 //PENDETA AKTIF
 
 Route::get('/pendetaAktif', 'PendetaAktifController@index');
-
+Route::get('/addPendetaAktif', 'PendetaAktifController@create');
 Route::post('penAktif', 'PendetaAktifController@store');
-
 Route::get('/detailPendetaAktif/{pendetaAktif}', 'PendetaAktifController@show');
-
 Route::delete('/detailPendetaAktif/{pendetaAktif}', 'PendetaAktifController@destroy');
-
 Route::get('/editAktif/{pendetaAktif}', 'PendetaAktifController@edit');
-
 Route::patch('/updateAktif/{pendetaAktif}', 'PendetaAktifController@update');
+
+
+//PENDETA PENSIUN
+
+Route::get('/pendetaPensiun', 'PendetaPensiunController@index');
+Route::get('/addPendetaPensiun', 'PendetaPensiunController@create');
+Route::post('addPenPensiun', 'PendetaPensiunController@store');
+Route::get('/detailPendetaPensiun/{pendetaPensiun}', 'PendetaPensiunController@show');
+Route::delete('/detailPendetaPensiun/{pendetaPensiun}', 'PendetaPensiunController@destroy');
+Route::get('/editPensiun/{pendetaPensiun}', 'PendetaPensiunController@edit');
+Route::patch('/updatePensiun/{pendetaPensiun}', 'PendetaPensiunController@update');
+

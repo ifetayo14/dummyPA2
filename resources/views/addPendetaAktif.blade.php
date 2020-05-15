@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+    @extends('layouts.layout')
 @section('title')
     <title>Tambah Pendeta Baru</title>
 @endsection
