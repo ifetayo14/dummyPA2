@@ -37,7 +37,11 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[64 Robots](https://64robots.com)**
 - **[Cubet Techno Labs](https://cubettech.com)**
 - **[Cyber-Duck](https://cyber-duck.co.uk)**
+<<<<<<< HEAD
 - **[Many](https://www.many.co.uk)**
+=======
+- **[British Software Development](https://www.britishsoftware.co)**
+>>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
 - **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
 - **[DevSquad](https://devsquad.com)**
 - [UserInsights](https://userinsights.com)
