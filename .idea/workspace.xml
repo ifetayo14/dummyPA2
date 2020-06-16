@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -1864,6 +1865,20 @@
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="74610894-b6d7-41b1-a13a-b0bf8f1ff7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PendetaAktifController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PendetaAktifController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PendetaPensiunController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/PendetaPensiun.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/addPendetaAktif.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/addPendetaAktif.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/addPendetaPensiun.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/addPendetaPensiun.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/detailPendetaPensiun.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/detailPendetaPensiun.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/editPendetaPensiun.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/editPendetaPensiun.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pendetaPensiun.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pendetaPensiun.blade.php" afterDir="false" />
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -1873,7 +1888,13 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+<<<<<<< HEAD
     <execution />
+=======
+    <execution>
+      <executable />
+    </execution>
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1973,17 +1994,21 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+<<<<<<< HEAD
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
     </include_path>
   </component>
   <component name="ProjectId" id="1bt8uOeFleBkjqNK5thv7j2eRJ2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+<<<<<<< HEAD
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -2000,6 +2025,16 @@
       <recent name="E:\PA2\App\ProjectPA2\resources\views" />
       <recent name="E:\PA2\App\ProjectPA2\resources\views\administrator" />
     </key>
+=======
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -2021,13 +2056,17 @@
       <workItem from="1589469312432" duration="6468000" />
       <workItem from="1589522148027" duration="894000" />
       <workItem from="1589547999791" duration="7666000" />
+<<<<<<< HEAD
       <workItem from="1591853633124" duration="515000" />
       <workItem from="1591854184768" duration="300000" />
       <workItem from="1591854500706" duration="13056000" />
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
+<<<<<<< HEAD
     <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2054,6 +2093,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="59" y="29" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1591854480543" />
+=======
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
     <state x="314" y="185" key="com.intellij.ide.util.TipDialog" timestamp="1589548010287">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -2062,9 +2106,12 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="297" y="161" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1589549842969" />
+<<<<<<< HEAD
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1591876153034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591876153034" />
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
   </component>
 </project>

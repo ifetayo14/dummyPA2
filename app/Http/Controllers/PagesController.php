@@ -11,4 +11,12 @@ class PagesController extends Controller
         $dataPengumuman = Pengumuman::all();
         return view('indexAdministrator', compact('dataPengumuman'));
     }
+
+    public function indexPersonalia(){
+        return view('personalia.indexPersonalia');
+    }
+
+    public function indexPendeta(){
+        return view('pendeta.indexPendeta');
+    }
 }

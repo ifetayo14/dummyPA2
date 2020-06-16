@@ -55,6 +55,7 @@
                                         </div>
                                     </div>
                                     <a href="{{url('indexAdministrator')}}" class="btn btn-primary btn-user btn-block">
+                                    <!-- <a href="{{url('indexPersonalia')}}" class="btn btn-primary btn-user btn-block"> -->
                                         Login
                                     </a>
                                 </form>

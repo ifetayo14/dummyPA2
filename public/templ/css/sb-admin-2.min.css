@@ -11369,6 +11369,7 @@ body.sidebar-toggled footer.sticky-footer {
 .pengContent{
     margin-top: 15pt;
     margin-left: 20pt;
+<<<<<<< HEAD
     font-size: 12pt;
 }
 
@@ -11377,6 +11378,8 @@ body.sidebar-toggled footer.sticky-footer {
     margin-left: 20pt;
     margin-bottom: 15pt;
     font-size: 10pt;
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
 }
 
 .btnAdd{

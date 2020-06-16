@@ -1553,6 +1553,7 @@
         },
         {
             "name": "opis/closure",
+<<<<<<< HEAD
             "version": "3.5.4",
             "source": {
                 "type": "git",
@@ -1563,6 +1564,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/opis/closure/zipball/1d0deef692f66dae5d70663caee2867d0971306b",
                 "reference": "1d0deef692f66dae5d70663caee2867d0971306b",
+=======
+            "version": "3.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opis/closure.git",
+                "reference": "cac47092144043d5d676e2e7cf8d0d2f83fc89ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opis/closure/zipball/cac47092144043d5d676e2e7cf8d0d2f83fc89ca",
+                "reference": "cac47092144043d5d676e2e7cf8d0d2f83fc89ca",
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
 =======
             "time": "2020-04-10T16:34:50+00:00"
         },
@@ -1627,6 +1640,7 @@
                 "serialize"
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2020-06-07T11:41:29+00:00"
         },
         {
@@ -1643,6 +1657,12 @@
                 "reference": "b2ada2ad5d8a32b89088b8adc31ecd2e3a13baf3",
 =======
             "time": "2019-11-29T22:36:02+00:00"
+=======
+            "time": "2020-05-25T09:32:45+00:00"
+=======
+            "time": "2019-11-29T22:36:02+00:00"
+>>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
         },
         {
             "name": "phpoption/phpoption",
@@ -1656,7 +1676,10 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
                 "reference": "4acfd6a4b33a509d8c88f50e5222f734b6aeebae",
+<<<<<<< HEAD
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
                 "shasum": ""
             },
             "require": {
@@ -1699,6 +1722,7 @@
                 "type"
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://github.com/GrahamCampbell",
@@ -1713,6 +1737,9 @@
 =======
             "time": "2020-03-21T18:07:53+00:00"
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
+            "time": "2020-03-21T18:07:53+00:00"
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
         },
         {
             "name": "psr/container",
@@ -3833,8 +3860,10 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 =======
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
             "time": "2020-05-12T16:47:27+00:00"
         },
         {
@@ -3844,6 +3873,21 @@
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
                 "reference": "f048e612a3905f34931127360bdd2def19a5e582"
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
+            "time": "2020-05-12T16:47:27+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "f048e612a3905f34931127360bdd2def19a5e582"
+<<<<<<< HEAD
+=======
+>>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
             },
             "dist": {
                 "type": "zip",
@@ -4830,6 +4874,7 @@
         {
             "name": "vlucas/phpdotenv",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v4.1.7",
             "source": {
                 "type": "git",
@@ -4840,6 +4885,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/db63b2ea280fdcf13c4ca392121b0b2450b51193",
                 "reference": "db63b2ea280fdcf13c4ca392121b0b2450b51193",
+=======
+            "version": "v4.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "0b32505d67c1abbfa829283c86bfc0642a661bf6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/0b32505d67c1abbfa829283c86bfc0642a661bf6",
+                "reference": "0b32505d67c1abbfa829283c86bfc0642a661bf6",
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
 =======
             "version": "v4.1.5",
             "source": {
@@ -4857,6 +4914,7 @@
             "require": {
                 "php": "^5.5.9 || ^7.0 || ^8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "phpoption/phpoption": "^1.7.3",
                 "symfony/polyfill-ctype": "^1.16"
             },
@@ -4866,6 +4924,8 @@
                 "ext-pcre": "*",
                 "phpunit/phpunit": "^4.8.35 || ^5.7.27 || ^6.5.6 || ^7.0"
 =======
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
                 "phpoption/phpoption": "^1.7.2",
                 "symfony/polyfill-ctype": "^1.9"
             },
@@ -4874,7 +4934,10 @@
                 "ext-filter": "*",
                 "ext-pcre": "*",
                 "phpunit/phpunit": "^4.8.35 || ^5.0 || ^6.0 || ^7.0"
+<<<<<<< HEAD
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
             },
             "suggest": {
                 "ext-filter": "Required to use the boolean validator.",
@@ -4924,7 +4987,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2020-06-07T18:25:35+00:00"
+=======
+            "time": "2020-05-23T09:43:32+00:00"
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
         },
         {
             "name": "voku/portable-ascii",
@@ -5471,6 +5538,7 @@
         {
             "name": "mockery/mockery",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "1.4.0",
             "source": {
                 "type": "git",
@@ -5482,6 +5550,8 @@
                 "url": "https://api.github.com/repos/mockery/mockery/zipball/6c6a7c533469873deacf998237e7649fc6b36223",
                 "reference": "6c6a7c533469873deacf998237e7649fc6b36223",
 =======
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
             "version": "1.3.1",
             "source": {
                 "type": "git",
@@ -5492,12 +5562,16 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/mockery/mockery/zipball/f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be",
                 "reference": "f69bbde7d7a75d6b2862d9ca8fab1cd28014b4be",
+<<<<<<< HEAD
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
                 "shasum": ""
             },
             "require": {
                 "hamcrest/hamcrest-php": "~2.0",
                 "lib-pcre": ">=7.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "php": "^7.3.0"
             },
@@ -5507,20 +5581,29 @@
             "require-dev": {
                 "phpunit/phpunit": "^8.0.0 || ^9.0.0"
 =======
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
                 "php": ">=5.6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~5.7.10|~6.5|~7.0|~8.0"
+<<<<<<< HEAD
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "1.4.x-dev"
 =======
                     "dev-master": "1.3.x-dev"
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
+                    "dev-master": "1.3.x-dev"
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
                 }
             },
             "autoload": {
@@ -5559,10 +5642,14 @@
                 "testing"
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2020-05-19T14:25:16+00:00"
 =======
             "time": "2019-12-26T09:49:15+00:00"
 >>>>>>> 0336951be1b331df49f347270237f5e9521c7fea
+=======
+            "time": "2019-12-26T09:49:15+00:00"
+>>>>>>> 4951d84bfa526383355f1e2bdbd8f9070936afb7
         },
         {
             "name": "myclabs/deep-copy",
